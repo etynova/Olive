@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#14301a" />
+  <meta name="description" content="Olive is your school's own AI assistant for staff and students." />
+  <title>Olive · Your school's AI</title>
+  <link rel="icon" href="/olive-mark.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <div class="brand"><div class="seal"><i></i></div><b>Olive</b></div>
+      <nav id="nav" aria-label="Primary">
+        <button data-view="home" class="on"><span>◐</span>Overview</button>
+        <button data-view="study"><span>∿</span>Study buddy</button>
+        <button data-view="desk"><span>⌂</span>Front desk</button>
+        <button data-view="log"><span>≡</span>Activity</button>
+      </nav>
+      <div class="side-foot"><span id="statusDot" class="dot"></span><span id="statusText">Checking…</span></div>
+    </aside>
+    <main id="view" class="view" tabindex="-1"></main>
+  </div>
+  <script src="/app.js"></script>
+  <script src="/motion.js"></script>
+</body>
+</html>
