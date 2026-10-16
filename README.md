@@ -1,0 +1,2 @@
+# Olive
+Sovereign AI project
